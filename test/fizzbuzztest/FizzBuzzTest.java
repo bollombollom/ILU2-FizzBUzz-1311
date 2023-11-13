@@ -17,13 +17,11 @@ class FizzBuzzTest {
 	}
 
 	@Test
-	void fizzBuzzUn() {
+	void fizzBuzzValeurNormale() {
 		assertEquals("1", f.fizzBuzz(1));
-	}
-
-	@Test
-	void fizzBuzzDeux() {
 		assertEquals("2", f.fizzBuzz(2));
+		assertEquals("4", f.fizzBuzz(4));
+
 	}
 
 	@Test
@@ -32,8 +30,8 @@ class FizzBuzzTest {
 	}
 
 	@Test
-	void fizzBuzzQuatre() {
-		assertEquals("4", f.fizzBuzz(4));
+	void fizzBuzzCinq() {
+		assertEquals("buzz", f.fizzBuzz(5));
 	}
 
 }
