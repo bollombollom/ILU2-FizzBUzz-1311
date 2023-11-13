@@ -21,6 +21,7 @@ class FizzBuzzTest {
 		assertEquals("1", f.fizzBuzz(1));
 		assertEquals("2", f.fizzBuzz(2));
 		assertEquals("4", f.fizzBuzz(4));
+		assertEquals("7", f.fizzBuzz(7));
 
 	}
 
@@ -35,8 +36,16 @@ class FizzBuzzTest {
 	}
 
 	@Test
-	void fizzBuzzSix() {
+	void fizzBuzzMultiples() {
 		assertEquals("fizz", f.fizzBuzz(6));
+		assertEquals("fizz", f.fizzBuzz(12));
+		assertEquals("buzz", f.fizzBuzz(10));
+	}
+
+	@Test
+	void fizzBuzzDoubleMultiples() {
+		assertEquals("fizzbuzz", f.fizzBuzz(15));
+		assertEquals("fizzbuzz", f.fizzBuzz(30));
 	}
 
 }
