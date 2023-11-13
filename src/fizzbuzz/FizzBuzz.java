@@ -3,7 +3,7 @@ package fizzbuzz;
 public class FizzBuzz {
 
 	public String fizzBuzz(int n) {
-		return "1";
+		return String.valueOf(n);
 	}
 
 }

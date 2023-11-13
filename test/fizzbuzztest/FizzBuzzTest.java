@@ -21,4 +21,9 @@ class FizzBuzzTest {
 		assertEquals("1", f.fizzBuzz(1));
 	}
 
+	@Test
+	void fizzBuzzDeux() {
+		assertEquals("2", f.fizzBuzz(2));
+	}
+
 }
