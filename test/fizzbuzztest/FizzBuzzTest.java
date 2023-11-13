@@ -34,4 +34,9 @@ class FizzBuzzTest {
 		assertEquals("buzz", f.fizzBuzz(5));
 	}
 
+	@Test
+	void fizzBuzzSix() {
+		assertEquals("fizz", f.fizzBuzz(6));
+	}
+
 }
