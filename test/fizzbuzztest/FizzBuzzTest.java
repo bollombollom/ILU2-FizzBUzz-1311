@@ -48,4 +48,14 @@ class FizzBuzzTest {
 		assertEquals("fizzbuzz", f.fizzBuzz(30));
 	}
 
+	@Test
+	void fizzBuzzTestsDivers() {
+		int n = 3 * 5 * 123;
+		assertEquals("fizzbuzz", f.fizzBuzz(n));
+		assertEquals("" + (n + 1), f.fizzBuzz(n + 1));
+		assertEquals("fizz", f.fizzBuzz(n + 3));
+		assertEquals("buzz", f.fizzBuzz(n + 5));
+
+	}
+
 }
